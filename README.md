@@ -16,7 +16,7 @@ Before you begin, make sure you have the following installed:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/yourusername/real-time-map.git
+   git clone https://github.com/BUZK1234/real-time-map.git
 Change into the project's directory:
 
 bash
