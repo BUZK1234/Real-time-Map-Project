@@ -7,7 +7,7 @@ data = []  # Store the CSV data
 
 def read_csv_data():
     global data
-    with open('/home/bilal-zaman/Self_Learning/project/night_activity_1.csv', 'r') as csvfile:
+    with open('file_path.csv', 'r') as csvfile:
         reader = csv.DictReader(csvfile)
         data = [{'lat': float(row['Latitude']), 'lon': float(row['Longitude'])} for row in reader]
 
